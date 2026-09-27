@@ -1,0 +1,26 @@
+# 認証情報・ローカル設定
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ローカルデータ・生成物
+/data/
+/logs/
+/outputs/
+/checkpoints/
+/models/
+/private/
+*.log
+
+# Python環境・キャッシュ
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS一時ファイル
+.DS_Store
+Thumbs.db
